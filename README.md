@@ -12,6 +12,7 @@
 [![Сайт сервера](https://img.shields.io/badge/Сайт-classicstation14.com-3b7dd8?style=for-the-badge)](https://classicstation14.com/)
 [![Вики проекта](https://img.shields.io/badge/Вики-wiki.classicstation14.com-3ea868?style=for-the-badge)](https://wiki.classicstation14.com/)
 [![Discord](https://img.shields.io/badge/Discord-Присоединиться-5865F2?style=for-the-badge)](https://discord.gg/A6pFnBgD9G)
+[![Boosty](https://img.shields.io/badge/Boosty-Поддержать_проект-f15f2c?style=for-the-badge)](https://boosty.to/classicstation)
 
 **Прямое подключение в лаунчере SS14:** `ss14://play.classicstation14.com:1212`  
 **Название в хабе:** `✨ [MRP] Classic Station - Классический сервер! 🚀`
@@ -61,6 +62,14 @@
 
 ---
 
+## 🧡 Добровольная поддержка проекта (Boosty)
+
+Если вам нравится наша классическая сборка и атмосфера на станции, вы можете поддержать оплату выделенного серверного хостинга на нашем официальном Boosty: **[https://boosty.to/classicstation](https://boosty.to/classicstation)**
+
+> **⚠️ ВАЖНО:** Донат на **Classic Station 14** **не даёт абсолютно никаких игровых преимуществ**, закрытых ролей, внутриигровых предметов, иммунитета к правилам или привилегий перед другими игроками. Все игроки находятся в равных условиях — любая поддержка проекта является **исключительно вашей добровольной инициативой**!
+
+---
+
 ## 🔗 Полезные ссылки
 
 - 🎮 **Прямое подключение:** `ss14://play.classicstation14.com:1212`
@@ -68,3 +77,4 @@
 - 📖 **База знаний (Вики):** [https://wiki.classicstation14.com/](https://wiki.classicstation14.com/)
 - ⚖️ **Правила сервера (MRP):** [https://wiki.classicstation14.com/Правила_сервера.html](https://wiki.classicstation14.com/Правила_сервера.html)
 - 💬 **Наш Discord:** [https://discord.gg/A6pFnBgD9G](https://discord.gg/A6pFnBgD9G)
+- 🧡 **Поддержать проект на Boosty:** [https://boosty.to/classicstation](https://boosty.to/classicstation) *(донат не даёт никаких игровых преимуществ — это исключительно ваша добровольная инициатива)*
