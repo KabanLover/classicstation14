@@ -1,0 +1,95 @@
+- type: entity
+  id: SpawnPointGhostRatKing
+  name: ghost role spawn point
+  suffix: rat king
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: Крысиный Король
+    description: Вы — Крысиный Король! Ищите еду, чтобы плодить крысиных прислужников, исполняющих вашу волю.
+    rules: Вы — антагонист! Ищите пропитание, атакуйте и увеличивайте свою орду!
+  - type: GhostRoleMobSpawner
+    prototype: MobRatKing
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Mobs/Animals/regalrat.rsi
+        state: icon
+
+- type: entity
+  id: SpawnPointGhostRemilia
+  name: ghost role spawn point
+  suffix: Remilia
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: Ремилия, фамильяр священника
+    description: Слушайтесь своего хозяина. Ешьте фрукты.
+    rules: Вы — разумная фруктовая летучая мышь. Следуйте за священником и не создавайте проблем без его приказа.
+  - type: GhostRoleMobSpawner
+    prototype: MobBatRemilia
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Mobs/Animals/bat.rsi
+        state: bat
+
+- type: entity
+  id: SpawnPointGhostCerberus
+  name: ghost role spawn point
+  suffix: cerberus
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: Цербер, злой фамильяр
+    description: Слушайтесь своего хозяина. Сейте хаос.
+    rules: Вы — разумный демонический пёс. Помогайте священнику и его пастве.
+  - type: GhostRoleMobSpawner
+    prototype: MobCorgiCerberus
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Mobs/Pets/corgi.rsi
+        state: narsian
+
+- type: entity
+  noSpawn: true
+  id: SpawnPointGhostNukeOperative
+  name: ghost role spawn point
+  suffix: nukeops
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    rules: Вы — оперативник Синдиката, которому поручено уничтожить станцию. Как антагонист, сделайте всё необходимое для выполнения задачи.
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanNukeOp
+  - type: NukeOperativeSpawner
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Structures/Wallmounts/signs.rsi
+        state: radiation
+
+- type: entity
+  noSpawn: true
+  id: SpawnPointLoneNukeOperative
+  name: ghost role spawn point
+  suffix: loneops
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: Одинокий оперативник
+    description: Вы — одинокий ядерный оперативник. Уничтожьте станцию!
+    rules: Вы — оперативник Синдиката, которому поручено уничтожить станцию. Как антагонист, сделайте всё необходимое для выполнения задачи.
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanLoneNuclearOperative
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: Structures/Wallmounts/signs.rsi
+        state: radiation

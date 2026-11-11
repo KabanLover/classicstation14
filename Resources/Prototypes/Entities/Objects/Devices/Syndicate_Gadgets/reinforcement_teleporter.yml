@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: ReinforcementRadioSyndicate
+  name: syndicate reinforcement radio
+  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+    netsync: false
+  - type: GhostRole
+    name: Агент Синдиката
+    description: Кому-то понадобилось подкрепление. Вы — первый, кого нашёл Синдикат, чтобы помочь им.
+    rules: Действуют стандартные правила антагонистов Синдиката. Помогайте тому, кто вас вызвал, и не вредите ему.
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanSyndicateAgent
+  - type: EmitSoundOnUse
+    sound: /Audio/Misc/emergency_meeting.ogg
+  - type: ItemCooldown
+  - type: UseDelay
+    delay: 300

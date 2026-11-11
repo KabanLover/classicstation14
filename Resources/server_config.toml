@@ -1,0 +1,45 @@
+[log]
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 1
+enabled = false
+
+[net]
+tickrate = 30
+port = 1212
+bindto = "::,0.0.0.0"
+max_connections = 256
+
+[status]
+enabled = true
+
+[game]
+hostname = "✨ [MRP] Classic Station - Классический сервер! 🚀"
+desc = "🔥📢 ВНИМАНИЕ: СЕЙЧАС АКТИВНО ВЕДЕТСЯ ПОИСК ИГРОКОВ, АДМИНИСТРАЦИИ И ГЛАВ ОТДЕЛОВ! 📢🔥\n══════════════════════════════════════════\n🌌 Добро пожаловать на Classic Station — тот самый классический сервер Space Station 14 образца 2023 года!\nМы вернули ламповую атмосферу и старые системы, по которым все скучали:\n\n🧰 Старый удобный инвентарь — привычные слоты без сеточного тетриса!\n💊 Классическая быстрая медицина — простое лечение, химия и капсулы клонирования.\n⏱️ Таймеры на роли снижены в 4 раза — быстро открывай любые профессии и отделы!\n🎭 Ламповый MRP — право на ошибку в IC (за случайные игровые ошибки не банят!), без ТТС и со строгим запретом на 18+/ERP.\n📚 Восстановленная классическая Вики со всеми рецептами, СРП и Корпоративным законом.\n\n══════════════════════════════════════════\n⚡ СЕЙЧАС АКТИВНО ВЕДЕТСЯ ПОИСК И НАБОР ИГРОКОВ И АДМИНИСТРАЦИИ!\n💬 Заходи в наш Discord: https://discord.gg/A6pFnBgD9G\n🌐 Сайт сервера: https://classicstation14.com/\n📖 Вики проекта: https://wiki.classicstation14.com/"
+
+[infolinks]
+discord = "https://discord.gg/A6pFnBgD9G"
+wiki = "https://wiki.classicstation14.com/"
+website = "https://classicstation14.com/"
+github = "https://github.com/KabanLover/classicstation14"
+bug_report = "https://discord.gg/A6pFnBgD9G"
+appeal = "https://discord.gg/A6pFnBgD9G"
+
+[rules]
+time = 10.0
+
+[console]
+loginlocal = true
+
+[hub]
+advertise = true
+tags = "lang:ru,rp:med,region:eu_e"
+server_url = ""
+master_url = "https://hub.spacestation14.com/"
+
+[build]
+engine_version = "0.85.1.11"
+fork_id = "classicstation2023"
+
+[auth]
+server = "https://auth.spacestation14.com/"

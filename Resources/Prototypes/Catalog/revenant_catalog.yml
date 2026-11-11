@@ -1,0 +1,51 @@
+- type: listing
+  id: RevenantDefile
+  name: Осквернение
+  description: Оскверняет окружающую область, вырывая плитку пола, повреждая окна, открывая контейнеры и разбрасывая предметы. Использование делает вас уязвимым для атак на короткое время.
+  productAction: RevenantDefile
+  cost: 
+    StolenEssence: 10
+  categories:
+  - RevenantAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: RevenantOverloadLights
+  name: Перегрузка света
+  description: Перегружает все ближайшие источники света, заставляя их пульсировать и выпускать опасные молнии. Использование делает вас уязвимым для атак на долгое время.
+  productAction: RevenantOverloadLights
+  cost: 
+    StolenEssence: 25
+  categories:
+  - RevenantAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: RevenantBlight
+  name: Мор
+  description: Заражает все ближайшие живые организмы инфекционной болезнью, вызывающей накопление токсинов и усталость. Использование делает вас уязвимым для атак на среднее время.
+  productAction: RevenantBlight
+  cost: 
+    StolenEssence: 75
+  categories:
+  - RevenantAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: RevenantMalfunction
+  name: Сбой электроники
+  description: Выводит из строя ближайшую электронику. Использование делает вас уязвимым для атак на долгое время.
+  productAction: RevenantMalfunction
+  cost: 
+    StolenEssence: 125
+  categories:
+  - RevenantAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1

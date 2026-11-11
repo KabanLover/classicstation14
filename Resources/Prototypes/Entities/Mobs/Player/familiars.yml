@@ -1,0 +1,84 @@
+- type: entity
+  name: Remilia
+  parent: MobBat
+  id: MobBatRemilia
+  description: The chaplain's familiar. Likes fruit.
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowMovement: true
+    allowSpeech: true
+    name: Ремилия, фамильяр священника
+    description: Слушайтесь своего хозяина. Ешьте фрукты.
+    rules: Вы — разумная фруктовая летучая мышь. Следуйте за священником и не создавайте проблем без его приказа.
+  - type: GhostTakeoverAvailable
+  - type: Grammar
+    attributes:
+      gender: female
+      proper: true
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: Access
+    tags:
+    - Chapel
+  - type: Mind
+    showExamineInfo: true
+  - type: Alerts
+  - type: Familiar
+
+- type: entity
+  name: Cerberus
+  parent: MobCorgiNarsi
+  id: MobCorgiCerberus
+  description: This pupper is not wholesome.
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowMovement: true
+    allowSpeech: true
+    name: Цербер, злой фамильяр
+    description: Слушайтесь своего хозяина. Сейте хаос.
+    rules: Вы — разумный демонический пёс. Помогайте священнику и его пастве.
+  - type: GhostTakeoverAvailable
+  - type: MeleeWeapon
+    hidden: true
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Piercing: 8
+        Slash: 7
+  - type: InputMover
+  - type: MobMover
+  - type: Faction
+    factions:
+    - SimpleNeutral
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-corrupted-corgi
+    interactFailureString: petting-failure-corrupted-corgi
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      80: Critical
+      160: Dead
+  - type: Grammar
+    attributes:
+      gender: male
+      proper: true
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: Access
+    tags:
+    - Chapel
+  - type: Mind
+    showExamineInfo: true
+  - type: Familiar
+  - type: Vocal
+    sounds:
+      Male: Cerberus
+      Female: Cerberus
+      Unsexed: Cerberus

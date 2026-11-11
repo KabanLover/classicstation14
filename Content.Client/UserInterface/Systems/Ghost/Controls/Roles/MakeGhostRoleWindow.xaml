@@ -1,0 +1,30 @@
+﻿<DefaultWindow Title="Создать роль призрака"
+            xmlns="https://spacestation14.io">
+
+    <BoxContainer Orientation="Vertical">
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="RoleEntityLabel" Text="Сущность" />
+            <Label Name="RoleEntity" Text="" />
+        </BoxContainer>
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="RoleNameLabel" Text="Название роли" />
+            <LineEdit Name="RoleName" HorizontalExpand="True" />
+        </BoxContainer>
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="RoleDescriptionLabel" Text="Описание роли" />
+            <LineEdit Name="RoleDescription" HorizontalExpand="True" />
+        </BoxContainer>
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="RoleRulesLabel" Text="Правила роли" />
+            <LineEdit Name="RoleRules" HorizontalExpand="True" Text="{Loc ghost-role-component-default-rules}" />
+        </BoxContainer>
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="MakeSentientLabel" Text="Сделать разумным" />
+            <CheckBox Name="MakeSentientCheckbox" />
+        </BoxContainer>
+        <BoxContainer Orientation="Horizontal">
+            <Button Name="MakeButton" Text="Создать" />
+        </BoxContainer>
+    </BoxContainer>
+
+</DefaultWindow>
